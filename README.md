@@ -1,6 +1,12 @@
 #Twitterlib
 pythonで書かれたtwitterクライアント
 
+##インストール
+
+```
+pip install git+https://github.com/koyuta/Twitterlib.git
+```
+
 ##使い方
 
 ```python
@@ -20,7 +26,7 @@ search_tweets = twitter_clinet.search_tweets(keyword = 'keyword', count = 100)
 基本的にはTwitterのapiのまんまです
 
 ```python
-def get_user_timeline(self, screen_name, count = 20, include_rts = True, exclude_replies = False)
+def get_user_timeline(self, screen_name=None, count=20, include_rts=True, exclude_replies=False)
 ```
 
 - screen_name : 表示されているユーザ名
@@ -29,7 +35,7 @@ def get_user_timeline(self, screen_name, count = 20, include_rts = True, exclude
 - exclude_replies：リプライの除外（デフォルトではFalseで除外しない）
 
 ```Pyhton
-def search_tweets(self, keyword, count, result_type = 'mix')
+def search_tweets(self, keyword=None, count=20, result_type='mix'):
 ```
 
 - keyword：検索ワード
