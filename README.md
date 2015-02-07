@@ -1,4 +1,4 @@
-Twitterlib
+#Twitterlib
 pythonで書かれたtwitterクライアント
 
 ##インストール
