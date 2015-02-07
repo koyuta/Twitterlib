@@ -1,12 +1,6 @@
 #Twitterlib
 pythonで書かれたtwitterクライアント
 
-##インストール
-
-```
-pip install https://github.com/koyuta/Twitterlib.git
-```
-
 ##使い方
 
 ```python
