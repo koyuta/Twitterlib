@@ -35,7 +35,7 @@ def get_user_timeline(self, screen_name=None, count=20, include_rts=True, exclud
 - exclude_replies：リプライの除外（デフォルトではFalseで除外しない）
 
 ```Pyhton
-def search_tweets(self, keyword=None, count=20, result_type='mix'):
+def search_tweets(self, keyword=None, count=20, result_type='mix')
 ```
 
 - keyword：検索ワード
