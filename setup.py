@@ -7,5 +7,5 @@ setup(
         version          = __version__,
         author           = __author__,
         packages         = ['Twitterlib'],
-        install_requires = ['requests-oauthlib']
+        install_requires = ['requests','requests-oauthlib']
 )
